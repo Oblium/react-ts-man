@@ -1,0 +1,46 @@
+{
+  "name": "react-ts-man",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.1.0",
+    "babel-loader": "^8.0.5",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-dev-server": "^3.1.14",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/node": "^10.12.24",
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "babel-jest": "^24.1.0",
+    "css-loader": "^2.1.0",
+    "jest": "^24.1.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "uri-js": "^4.2.2",
+    "webpack-cli": "^3.2.3"
+  },
+  "resolutions": {
+    "ajv": "6.8.1"
+  }
+}
