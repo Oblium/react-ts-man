@@ -12,6 +12,9 @@ module.exports = {
         filename: "[name].js"
     },
     mode: "development",
+    resolve: {
+        extensions: [".tsx", ".js"]
+    },
     module: {
         rules: [
             {
@@ -19,5 +22,9 @@ module.exports = {
                 use: "babel-loader"
             }
         ]
+    },
+    devServer: {
+        port: 8000,
+        contentBase: PUBLIC
     }
 };
