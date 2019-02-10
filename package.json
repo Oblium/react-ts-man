@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "lint": "tslint --project tsconfig.json"
   },
   "keywords": [],
   "author": "",
@@ -39,6 +40,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "tslint": "^5.12.1",
+    "tslint-config-airbnb": "^5.11.1",
     "tslint-config-prettier": "^1.18.0",
     "uri-js": "^4.2.2",
     "webpack-cli": "^3.2.3"
