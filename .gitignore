@@ -10,5 +10,5 @@ node_modules/
 .npm
 
 .idea
-./public/
-!./public/index.html
+public/
+!public/index.html
