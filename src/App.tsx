@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 interface IProps {
-    color: string
+    color?: string
 }
 
 interface IState {
-    color: string
+    color?: string
 }
 
 const Button = styled.button`

@@ -1,6 +1,9 @@
 module.exports = {
     "presets": [
-        "@babel/env",
+        ["@babel/env", {
+            "useBuiltIns": "entry",
+            "modules": false
+        }],
         "@babel/react",
         "@babel/typescript"
     ],
